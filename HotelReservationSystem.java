@@ -45,7 +45,7 @@ class Booking {                     //Booking class to store booking details.
 public class HotelReservationSystem {               //Main class for the hotel reservation system.
 
     static ArrayList<Room> rooms = new ArrayList<>();
-    static final String FILE_NAME = "HotelIshraq.txt";  
+    static final String FILE_NAME = "bookings.txt";  
 
     public static void main(String[] args) {
 
@@ -285,4 +285,5 @@ public class HotelReservationSystem {               //Main class for the hotel r
             System.out.println("Error saving booking.");
         }
     }
+
 }
